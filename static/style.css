@@ -1,0 +1,10 @@
+.price-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.price-text {
+  font-size: 36px;
+  color: #333;
+}

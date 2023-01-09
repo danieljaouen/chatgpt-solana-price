@@ -1,8 +1,11 @@
 <html>
   <head>
     <title>Solana Price</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   </head>
   <body>
-    <h1>The current price of Solana is: ${{ solana_price }}</h1>
+    <div class="price-container">
+      <h1 class="price-text">The current price of Solana is: ${{ solana_price }}</h1>
+    </div>
   </body>
 </html>
